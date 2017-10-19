@@ -1,0 +1,699 @@
+/* 基础色 */
+/* 按钮（蓝） */
+/* 文字标题、段落（黑） */
+/* 文字标题、段落（蓝） */
+/* 灰色背景色 */
+/* footer背景色 */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/variable\.less}line{font-family:\0000348}}
+.letter-space-s {
+  letter-spacing: .46px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/variable\.less}line{font-family:\0000352}}
+.letter-space-m {
+  letter-spacing: .54px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/variable\.less}line{font-family:\0000356}}
+.letter-space-l {
+  letter-spacing: .69px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/variable\.less}line{font-family:\0000360}}
+.letter-space-xl {
+  letter-spacing: .92px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/variable\.less}line{font-family:\0000364}}
+.letter-space-xxl {
+  letter-spacing: 1.34px;
+}
+/* 加载动画 */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\000034}}
+.preloader {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottpm: 0;
+  right: 0;
+  z-index: 9;
+  width: 100%;
+  height: 100%;
+  background-color: #fefefe;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\0000315}}
+.preloader .status {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -100px;
+  margin-top: -100px;
+  width: 200px;
+  height: 200px;
+  background: url("../images/loading.gif") center no-repeat;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\0000328}}
+.right-inner {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\0000334}}
+.right-inner .mask {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background: #000000;
+  opacity: 0.4;
+  -webkit-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=40);
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=40);
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=40);
+}
+/* 手机端左侧导航 */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\0000348}}
+.navbar-mobile {
+  display: none;
+  position: absolute;
+  left: -2.3rem;
+  top: 0;
+  width: 2.3rem;
+  height: 100px;
+  font-size: .14rem;
+  background: #ffffff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\0000357}}
+.navbar-mobile .close {
+  position: absolute;
+  left: .15rem;
+  top: .15rem;
+  width: .2rem;
+  height: .2rem;
+  background-image: url("../images/close.png");
+  background-size: contain;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\0000366}}
+.navbar-mobile .login {
+  display: block;
+  width: .8rem;
+  height: .28rem;
+  margin: .6rem auto .4rem;
+  line-height: .28rem;
+  text-align: center;
+  border-radius: 1rem;
+  border: 0.005rem solid #334153;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\0000376}}
+.navbar-mobile .navbar-list {
+  width: 1.9rem;
+  margin: 0 auto;
+  padding-top: .4rem;
+  padding-left: .5rem;
+  border-top: 1px solid #d8d8d8;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\0000382}}
+.navbar-mobile .navbar-list a {
+  display: block;
+  margin-bottom: .25rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\0000389}}
+.container {
+  width: 1180px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+/* 大标题 */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\0000396}}
+.headline {
+  width: 100%;
+  margin-bottom: 80px;
+  line-height: 29px;
+  text-align: center;
+  letter-spacing: .69px;
+}
+/* 小标题 */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\00003105}}
+.subtitle {
+  width: 100%;
+  margin: 80px 0 20px;
+  color: #607693;
+  text-align: center;
+  letter-spacing: .69px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\00003113}}
+.advertiser {
+  width: 100%;
+  padding-top: 100px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\00003118}}
+.publisher {
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\00003124}}
+.item-list {
+  overflow: hidden;
+  display: inline-block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\00003127}}
+.item-list .item {
+  float: left;
+  width: 25%;
+  padding: 0 22px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\00003131}}
+.item-list .item [class*='icon-bg'] {
+  width: 64px;
+  height: 64px;
+  margin: 0 auto;
+  background-size: 62px 62px;
+  -webkit-background-size: 62px 62px;
+  -moz-background-size: 62px 62px;
+  -o-background-size: 62px 62px;
+  background-repeat: no-repeat;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\00003138}}
+.item-list .item .icon-bg-focus {
+  background-image: url("../images/focus-mobile.png");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\00003141}}
+.item-list .item .icon-bg-longterm {
+  background-image: url("../images/long-termpartnerships.png");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\00003144}}
+.item-list .item .icon-bg-global {
+  background-image: url("../images/global-cooperation.png");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\00003147}}
+.item-list .item .icon-bg-better {
+  background-image: url("../images/better-communication.png");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\00003150}}
+.item-list .item .icon-bg-revenues {
+  background-image: url("../images/revenues.png");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\00003153}}
+.item-list .item .icon-bg-support {
+  background-image: url("../images/support.png");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\00003156}}
+.item-list .item .icon-bg-tarining {
+  background-image: url("../images/training.png");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\00003159}}
+.item-list .item .icon-bg-tools {
+  background-image: url("../images/tools.png");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\00003162}}
+.item-list .item h5 {
+  margin: 38px 0 10px;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: .69px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\00003168}}
+.item-list .item p {
+  font-size: 12px;
+  line-height: 19.42px;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\00003176}}
+.apply-btn {
+  display: block;
+  width: 300px;
+  height: 46px;
+  margin: 0 auto;
+  line-height: 46px;
+  background: #00a0e8;
+  font-size: 16px;
+  color: #ffffff;
+  text-align: center;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
+  user-select: none;
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\00003191}}
+.about-us {
+  width: 100%;
+  padding: 100px 0;
+  background: #f8f8f8;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\00003196}}
+.about-us img {
+  float: left;
+  width: 42%;
+  margin-right: 38px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\00003201}}
+.about-us .article {
+  float: left;
+  width: 54%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\00003204}}
+.about-us .article .headline {
+  margin: 0;
+  line-height: 60px;
+  text-align: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\00003209}}
+.about-us .article .subtitle {
+  margin: 0;
+  line-height: 30px;
+  text-align: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\00003217}}
+.slide {
+  width: 100%;
+  padding: 100px 0;
+  background: #f8f8f8;
+  border-top: 1px solid #eaeaea;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\00003224}}
+.swiper-slide {
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\00003226}}
+.swiper-slide img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 20px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\00003232}}
+.swiper-slide h1 {
+  margin-bottom: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\00003235}}
+.swiper-slide .name {
+  font-size: 28px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\00003238}}
+.swiper-slide .introduce {
+  width: 74%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  font-size: 24px;
+  line-height: 40px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\00003248}}
+.swiper-button-prev {
+  background-image: url("../images/arrow-left.png") !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\00003252}}
+.swiper-button-next {
+  background-image: url("../images/arrow-right.png") !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\00003256}}
+.customer {
+  padding: 100px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\00003258}}
+.customer .ad-img {
+  width: 100%;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\00003261}}
+.customer .ad-img img {
+  max-width: 130px;
+  margin-right: 12px;
+  margin-left: 12px;
+  padding-bottom: 15px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\00003272}}
+.count {
+  padding: 100px 0;
+  overflow: hidden;
+  background: url("../images/count-bg.png") rgba(14, 24, 33, 0.9) center center no-repeat;
+  background-size: cover;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\00003277}}
+.count .count-list {
+  width: 100%;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\00003280}}
+.count .count-list li {
+  display: inline-block;
+  width: 280px;
+  padding: 27px 0 26px;
+  text-align: center;
+  border: 2px solid rgba(255, 255, 255, 0.4);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\00003286}}
+.count .count-list li:nth-child(n+1) {
+  margin-left: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\00003289}}
+.count .count-list li .number {
+  line-height: 41px;
+  font-size: 35px;
+  letter-spacing: 1.34px;
+  color: #00a0e8;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\00003295}}
+.count .count-list li .introduce {
+  margin-top: 10px;
+  font-size: 14px;
+  letter-spacing: .54px;
+  color: #ffffff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\00003305}}
+.footer {
+  padding: 80px 0;
+  overflow: hidden;
+  background: #0e1821;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\00003309}}
+.footer li {
+  float: left;
+  width: 25%;
+  height: 80px;
+  padding: 0 50px;
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\00003316}}
+.footer li + li {
+  border-left: 1px solid rgba(216, 216, 216, 0.2);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\00003319}}
+.footer li .title {
+  line-height: 16px;
+  margin-bottom: 9px;
+  font-size: 14px;
+  letter-spacing: .54px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\00003325}}
+.footer li .detail {
+  line-height: 14px;
+  font-size: 12px;
+}
+/* 媒体查询*/
+@media (max-width: 1200px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\00003335}}
+  .container {
+    width: 960px;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\00003341}}
+  .count .count-list > li:nth-child(n) {
+    margin-left: 120px;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\00003344}}
+  .count .count-list > li:nth-child(n+2) {
+    margin-top: 20px;
+  }
+}
+@media (max-width: 991px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\00003353}}
+  .container {
+    width: 750px;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\00003358}}
+  .about-us .container > img {
+    float: none;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\00003364}}
+  .about-us .container .article {
+    float: none;
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\00003374}}
+  .footer li {
+    width: 33%;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\00003376}}
+  .footer li:last-child {
+    width: 100%;
+    border-left: none;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\00003379}}
+  .footer li:last-child p {
+    line-height: 80px;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\00003387}}
+  .count .count-list li:nth-child(n) {
+    display: inline-block;
+    margin-left: .6rem;
+  }
+}
+@media (max-width: 768px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\00003396}}
+  html,
+  body {
+    position: relative;
+    font-size: 100px;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\00003400}}
+  .navbar-mobile {
+    display: block;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\00003403}}
+  .navbar {
+    display: none;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\00003406}}
+  .container {
+    width: 100%;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\00003409}}
+  .item-list {
+    width: 100%;
+    margin: 0 auto;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\00003412}}
+  .item-list .item {
+    width: 100%;
+    padding: 0 13%;
+    margin-top: .2rem;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\00003416}}
+  .item-list .item [class*='icon-bg'] {
+    width: .6rem;
+    height: .6rem;
+    background-size: cover;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\00003421}}
+  .item-list .item h5 {
+    margin-top: .2rem;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\00003424}}
+  .item-list .item:first-child {
+    margin-top: 0;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\00003427}}
+  .item-list .item p {
+    font-size: .14rem;
+    line-height: .22rem;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\00003433}}
+  .apply-btn {
+    font-size: .16rem;
+    width: 3rem;
+    height: .46rem;
+    border-radius: .25rem;
+    line-height: .46rem;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\00003440}}
+  .count {
+    padding: 0 0 .2rem 0;
+    background: url("../images/count-bg-m.png");
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\00003444}}
+  .count .count-list li:nth-child(n) {
+    display: block;
+    padding: .1rem 0;
+    width: 2.36rem;
+    margin: .2rem auto 0;
+    border-width: .01rem;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\00003450}}
+  .count .count-list li:nth-child(n) .number {
+    font-size: .2rem;
+    line-height: .28rem;
+    letter-spacing: 0.77px;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\00003455}}
+  .count .count-list li:nth-child(n) .introduce {
+    margin-top: .1rem;
+    font-size: .12rem;
+    letter-spacing: .46px;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\00003463}}
+  .header {
+    background-image: url("../images/header-bg-m.png");
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\00003465}}
+  .header .header-mobil {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: .14rem .18rem;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\00003472}}
+  .header .header-mobil .nav-menu {
+    position: absolute;
+    left: .18rem;
+    top: .14rem;
+    width: .2rem;
+    height: .2rem;
+    background-image: url("../images/menu.png");
+    background-size: contain;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\00003481}}
+  .header .header-mobil .logo {
+    margin: 0 auto;
+    width: .8rem;
+    height: .26rem;
+    background-image: url("../images/logo.png");
+    background-size: 100% 100%;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\00003490}}
+  .header .connect-wrap {
+    width: 100% ;
+    padding: .83rem 0 0.32rem;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\00003493}}
+  .header .connect-wrap .connect {
+    width: 62%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    font-size: .12rem;
+    line-height: .2rem;
+    text-align: center;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\00003502}}
+  .header .connect-wrap ul {
+    text-align: center;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\00003504}}
+  .header .connect-wrap ul .header-btn {
+    font-size: .12rem;
+    padding: 0.06rem .12rem;
+    margin-top: .2rem;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\00003508}}
+  .header .connect-wrap ul .header-btn:nth-child(2) {
+    margin-left: 0;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\00003515}}
+  .advertiser {
+    padding-top: .2rem;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\00003518}}
+  .publisher,
+  .customer {
+    padding: .4rem 0;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\00003521}}
+  .about-us {
+    padding: 0 0 .2rem;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\00003524}}
+  .about-us .article .headline {
+    line-height: .4rem;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\00003527}}
+  .about-us .article .subtitle {
+    line-height: .22rem;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\00003532}}
+  .slide {
+    padding: .2rem 0;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\00003535}}
+  .slide .swiper-slide img {
+    width: .8rem;
+    height: .8rem;
+    margin-bottom: .2rem;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\00003540}}
+  .slide .swiper-slide .headline {
+    margin-bottom: .06rem;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\00003543}}
+  .slide .swiper-slide .name {
+    font-size: .16rem;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\00003546}}
+  .slide .swiper-slide .introduce {
+    width: 90%;
+    margin-top: .1rem;
+    font-size: .16rem;
+    line-height: .26rem;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\00003556}}
+  .customer .ad-img img {
+    max-width: .8rem;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\00003561}}
+  .footer {
+    padding: .22rem 4% 0;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\00003563}}
+  .footer li {
+    width: 100%;
+    height: auto;
+    margin-bottom: .22rem;
+    padding: 0;
+    border: none !important;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\00003569}}
+  .footer li:last-child p {
+    width: 100%;
+    line-height: .2rem;
+    font-size: .1rem;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\00003574}}
+  .footer li .title {
+    float: left;
+    width: 16%;
+    margin-right: 4%;
+    margin-bottom: 0;
+    line-height: .2rem;
+    text-align: right;
+    font-size: .14rem;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\00003585}}
+  .footer li .detail {
+    float: left;
+    width: 80%;
+    line-height: .18rem;
+    text-align: left;
+    font-size: .12rem;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\00003594}}
+  .headline {
+    line-height: .22rem;
+    font-size: .16rem;
+    margin-bottom: .3rem;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\00003599}}
+  .subtitle {
+    margin-top: .3rem;
+    margin-bottom: .2rem;
+    font-size: .14rem;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\00003604}}
+  h5 {
+    font-size: .14rem !important;
+  }
+}
