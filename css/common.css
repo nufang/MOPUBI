@@ -450,13 +450,13 @@
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\00003204}}
 .about-us .article .headline {
-  margin: 0;
-  line-height: 60px;
+  margin-bottom: 10px;
   text-align: left;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\00003209}}
 .about-us .article .subtitle {
-  margin: 0;
+    margin-top: 0;
+  margin-bottom: 10px;
   line-height: 30px;
   text-align: left;
 }
@@ -512,6 +512,7 @@
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\00003258}}
 .customer .ad-img {
   width: 100%;
+  padding: 0 5%;
   text-align: center;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\00003261}}
@@ -806,7 +807,9 @@
   }
   @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\00003527}}
   .about-us .article .subtitle {
+    margin-top: 0;
     line-height: .22rem;
+    margin-bottom: .1rem;
   }
   @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/mopubi\/less\/container\.less}line{font-family:\00003532}}
   .slide {
